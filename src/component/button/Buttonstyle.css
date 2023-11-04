@@ -1,0 +1,51 @@
+.Primarry {
+  background: var(--white-01, #ffffff) !important;
+  border-radius: 8px;
+  padding: 13px 17px 13px 17px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  color: var(--purple-01, #0e9aff);
+  font: var(
+    --paragraph-semibold-ph-14-lh-130,
+    600 14px/130% "Outfit",
+    sans-serif
+  );
+}
+
+.Secondary {
+  border-radius: 8px;
+  border-style: solid;
+  background: transparent !important;
+  border-color: var(--white-01, #ffffff) !important;
+  border-width: 1.5px;
+  padding: 13px 17px 13px 17px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  color: var(--white-01, #ffffff);
+  font: var(
+    --paragraph-semibold-ph-14-lh-130,
+    600 14px/130% "Outfit",
+    sans-serif
+  );
+}
+
+.Text-button {
+  color: #0d99ff;
+  background-color: transparent !important;
+  text-align: right;
+  font: var(--paragraph-medium-p-14-lh-130, 500 14px/130% "Outfit", sans-serif);
+}
+
+.Primarry-Blue {
+  background: #0d99ff !important;
+  border-radius: 8px;
+  padding: 13px 17px 13px 17px;
+  width: 90px;
+  height: 40px;
+  color: var(--white-01, #ffffff);
+  font: var(--paragraph-medium-p-12-lh-130, 600 14px/130% "Outfit", sans-serif);
+}

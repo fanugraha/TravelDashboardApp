@@ -1,0 +1,144 @@
+.Card {
+    width: 500px;
+    height: 600px;
+    gap: 20px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    backdrop-filter: blur(12px);
+    background-color: white;
+  }
+  
+  .CardRegister {
+    width: 500px;
+    height: 700px;
+    gap: 20px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    backdrop-filter: blur(12px);
+    background-color: white;
+  }
+  
+  .TitleAuth {
+    color: #363636;
+    text-align: left;
+    font: 400 30px "Rubik", sans-serif;
+    margin: 0;
+  }
+  
+  .Label {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 365px;
+    gap: 12px;
+  }
+  
+  .ParagraphAuth {
+    color: #454545;
+    text-align: left;
+    font: 300 16px "Rubik", sans-serif;
+    margin: 0;
+  }
+  
+  .WrapperInput {
+    width: 365px;
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .LabelInput {
+    color: #454545;
+    text-align: left;
+    font: 300 16px "Rubik", sans-serif;
+    margin: 0;
+  }
+  
+  .ParagraphAuth span a {
+    color: #454545;
+    text-align: left;
+    font: 600 16px "Rubik", sans-serif;
+    text-decoration: none;
+  }
+  
+  .LoginBtn {
+    background-color: #0e9aff !important;
+    width: 365px !important;
+    font: 600 16px "Rubik", sans-serif;
+    height: 50px;
+  }
+  
+  .BtnModal {
+    background-color: #0e9aff !important;
+  }
+  
+  .WrapperBtnModal {
+    display: flex;
+    justify-content: end;
+  }
+  
+  @media (max-width: 575px) {
+    .CardRegister {
+      width: 450px;
+      height: 700px;
+    }
+    .Card {
+      width: 450px;
+      height: 550px;
+    }
+    .TitleAuth {
+      font: 400 24px "Rubik", sans-serif;
+    }
+  
+    .ParagraphAuth {
+      font: 300 14px "Rubik", sans-serif;
+    }
+  }
+  
+  @media (max-width: 485px) {
+    .Card {
+      width: 300px;
+      height: 500px;
+    }
+    .TitleAuth {
+      font: 400 20px "Rubik", sans-serif;
+    }
+    .Label {
+      width: 250px;
+    }
+  
+    .ParagraphAuth {
+      font: 300 14px "Rubik", sans-serif;
+    }
+    .WrapperInput {
+      width: 250px;
+    }
+  
+    .LabelInput {
+      font: 250 14px "Rubik", sans-serif;
+    }
+  
+    .ParagraphAuth span a {
+      font: 600 14px "Rubik", sans-serif;
+    }
+  
+    .LoginBtn {
+      width: 250px !important;
+      font: 600 14px "Rubik", sans-serif;
+    }
+    .CardRegister {
+      width: 300px;
+      height: 610px;
+      gap: 12px;
+    }
+  }

@@ -1,0 +1,41 @@
+.name-user h1 {
+  color: var(--black-01, #010101);
+  font: var(
+    --paragraph-semibold-ph-16-lh-130,
+    600 20px/130% "Outfit",
+    sans-serif
+  );
+}
+
+.name-user p {
+  color: var(--grey-01, #93989a);
+  font: var(--paragraph-medium-p-12-lh-130, 500 12px/130% "Outfit", sans-serif);
+}
+
+.user-list-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 24px;
+  border-style: solid;
+  border-color: var(--white-03, #f3f3f3);
+  border-width: 0px 0px 1.5px 0px;
+  height: 70px;
+}
+
+.role {
+  color: var(--black-01, #010101);
+  font: var(--paragraph-medium-p-14-lh-130, 600 16px/130% "Outfit", sans-serif);
+}
+
+.user-profile-list {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.name-user {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}

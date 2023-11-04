@@ -1,0 +1,60 @@
+.promo-card img {
+  width: 222px;
+  height: 140px;
+  border: 12px;
+}
+
+.promo-card {
+  background: var(--white-01, #ffffff);
+  border-radius: 15px;
+  width: 270px;
+  height: 320px;
+  box-shadow: 0px 4px 100px 0px rgba(202, 202, 202, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.body-card-promo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.title-promo h1 {
+  color: var(--black-01, #010101);
+  font: var(
+    --paragraph-semibold-ph-16-lh-130,
+    600 16px/130% "Outfit",
+    sans-serif
+  );
+}
+
+.title-promo p {
+  color: var(--grey-01, #93989a);
+  font: var(--paragraph-medium-p-12-lh-130, 500 12px/130% "Outfit", sans-serif);
+  margin-top: 4px;
+}
+
+.desc-promo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.desc-promo p {
+  color: var(--grey-01, #93989a);
+  font: 400 12px/130% "Outfit", sans-serif;
+}
+
+.desc-promo h1 {
+  color: var(--black-01, #010101);
+  font: 600 24px/130% "Outfit", sans-serif;
+}
+
+.wrapper-card {
+  gap: 16px;
+  display: flex;
+}

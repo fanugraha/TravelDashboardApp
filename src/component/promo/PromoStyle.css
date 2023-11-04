@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    .Group {
+      width: 50%;
+    }
+  }
+  
+  /* Apply a different custom width on screens larger than 768px */
+  @media (min-width: 769px) {
+    .Group {
+      width: 50%;
+    }
+  }
